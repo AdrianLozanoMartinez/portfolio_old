@@ -1,0 +1,17 @@
+*, .accordion-button{  /*  *-> Todo  accordion-button-> Interior del botón: Fondo negro */
+    background-color: #262626;
+    color: white; 
+}
+
+@media screen and (min-width: 1024px){     /*Más de 1024px*/
+    button{
+        padding-left: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1023px){    /*Menos de 1023px*/
+    button{
+        padding-left: 70px;
+    }
+}
