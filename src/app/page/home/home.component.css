@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.borde{
+    border: 1px red solid;
+}
+
 @media screen and (min-width: 1025px){     /*Más de 1025px -> PC / TV*/
     button{
         padding-left: 200px;
@@ -18,7 +22,7 @@
 }
 
 
-@media screen and (width: 1024px){     /*Más de 1024px*/
+@media screen and (width: 1024px){     /*Con 1024px -> Lapto*/
     button{
         padding-left: 200px;
     }
@@ -29,7 +33,7 @@
 }
 
 
-@media screen and (width: 768px){     /*Más de 1024px*/
+@media screen and (width: 768px){     /*Con 768px -> Tablet*/
     button{
         padding-left: 150px;
     }
@@ -40,7 +44,7 @@
 }
 
 
-@media screen and (max-width: 612px){     /*Más de 1024px*/
+@media screen and (max-width: 612px){     /*Menos de 612px*/
     button{
         padding-left: 100px;
     }
@@ -50,7 +54,7 @@
     }
 }
 
-@media screen and (width: 540px){     /*Más de 1024px*/
+@media screen and (width: 540px){     /*Con 540px  -> Surface Duo*/
     button{
         padding-left: 130px;
     }
@@ -60,7 +64,7 @@
     }
 }
 
-@media screen and (width: 320px){     /*Más de 1024px*/
+@media screen and (width: 320px){     /*Con 320px  -> Mobile S*/
     button{
         padding-left: 90px;
     }
@@ -70,7 +74,7 @@
     }
 }
 
-@media screen and (width: 360px){     /*Más de 1024px*/
+@media screen and (width: 360px){     /*Con 360px ->  -> Mobile Moto G*/
     button{
         padding-left: 80px;
     }
@@ -80,7 +84,7 @@
     }
 }
 
-@media screen and (max-width: 320px){     /*Más de 1024px*/
+@media screen and (max-width: 320px){     /*Menos de 320px ->  -> Mobile Galaxy Fold*/
     button{
         padding-left: 60px;
     }
