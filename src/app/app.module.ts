@@ -26,6 +26,10 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { FootComponent } from './component/foot/foot.component';
 import { HomeComponent } from './page/home/home.component';
 import { ErrorComponent } from './component/error/error.component';
+import { DatospersonalesComponent } from './page/datospersonales/datospersonales.component';
+import { FormacionComponent } from './page/formacion/formacion.component';
+import { ConocimientosComponent } from './page/conocimientos/conocimientos.component';
+import { ExperienciasComponent } from './page/experiencias/experiencias.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { ErrorComponent } from './component/error/error.component';
     NavbarComponent,
     FootComponent,
     HomeComponent,
-    ErrorComponent
+    ErrorComponent,
+    DatospersonalesComponent,
+    FormacionComponent,
+    ConocimientosComponent,
+    ExperienciasComponent
   ],
   imports: [
     BrowserModule,
