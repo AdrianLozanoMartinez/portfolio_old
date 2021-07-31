@@ -12,4 +12,5 @@ export class FormacionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }

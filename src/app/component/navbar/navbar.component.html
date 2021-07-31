@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <img src="../../../assets//image/Foto.jpg" width="50px" height="50px" id="circulo">
+      <a [routerLink]="['/home']"><img src="../../../assets//image/Foto.jpg" width="50px" height="50px" id="circulo" class="mx-3"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,16 +10,16 @@
             <a class="nav-link active" aria-current="page" [routerLink]="['/datos']">Datos personales</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Formación</a>
+            <a class="nav-link" [routerLink]="['/formacion']">Formación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experiencia</a>
+            <a class="nav-link" [routerLink]="['/experiencias']">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Conocimientos</a>
+            <a class="nav-link" [routerLink]="['/conocimientos']">Conocimientos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Proyectos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
