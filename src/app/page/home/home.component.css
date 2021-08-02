@@ -7,7 +7,25 @@
     text-align: center;
 }
 
+.green{
+    color: rgb(0, 201, 167);
+}
 
+.red{
+    color: rgb(255, 47, 47);
+}
+
+.yellow{
+    color: rgb(224, 255, 47);
+}
+
+.blue{
+    color: rgb(47, 255, 255);
+}
+
+.grey{
+    color: rgb(133, 177, 177);
+}
 
 @media screen and (min-width: 1025px){     /*Más de 1025px -> PC / TV*/
     button{
