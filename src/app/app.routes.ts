@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { FootComponent } from './component/foot/foot.component';
 import { HomeComponent } from './page/home/home.component';
-import { ErrorComponent } from './component/error/error.component';
 import { DatospersonalesComponent } from './page/datospersonales/datospersonales.component';
 import { FormacionComponent } from './page/formacion/formacion.component';
 import { ConocimientosComponent } from './page/conocimientos/conocimientos.component';
