@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "adrianlozanomartinez-portfolio": {
+      "hosting": {
+        "Portfolio": [
+          "adrianlozanomartinez-portfolio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adrianlozanomartinez-portfolio"
+  }
+}

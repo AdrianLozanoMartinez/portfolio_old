@@ -1,0 +1,111 @@
+*, .accordion-button{  /*  *-> Todo  accordion-button-> Interior del botón: Fondo negro */
+    background-color: #262626;
+    color: white; 
+}
+
+.centrar{
+    text-align: center;
+}
+
+.green{
+    color: rgb(0, 201, 167);
+}
+
+.red{
+    color: rgb(255, 47, 47);
+}
+
+.yellow{
+    color: rgb(224, 255, 47);
+}
+
+.blue{
+    color: rgb(47, 255, 255);
+}
+
+.grey{
+    color: rgb(133, 177, 177);
+}
+
+@media screen and (min-width: 1025px){     /*Más de 1025px -> PC / TV*/
+    button{
+        padding-left: 200px;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+
+@media screen and (width: 1024px){     /*Con 1024px -> Lapto*/
+    button{
+        padding-left: 200px;
+    }
+
+    img{
+        width: 250px;
+    }
+}
+
+
+@media screen and (width: 768px){     /*Con 768px -> Tablet*/
+    button{
+        padding-left: 150px;
+    }
+
+    img{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 612px){     /*Menos de 612px*/
+    button{
+        padding-left: 100px;
+    }
+
+    img{
+        width: 300px;
+    }
+}
+
+@media screen and (width: 540px){     /*Con 540px  -> Surface Duo*/
+    button{
+        padding-left: 130px;
+    }
+
+    img{
+        width: 400px;
+    }
+}
+
+@media screen and (width: 320px){     /*Con 320px  -> Mobile S*/
+    button{
+        padding-left: 90px;
+    }
+
+    img{
+        width: 250px;
+    }
+}
+
+@media screen and (width: 360px){     /*Con 360px ->  -> Mobile Moto G*/
+    button{
+        padding-left: 80px;
+    }
+
+    img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 320px){     /*Menos de 320px ->  -> Mobile Galaxy Fold*/
+    button{
+        padding-left: 60px;
+    }
+
+    img{
+        width: 200px;
+    }
+}
